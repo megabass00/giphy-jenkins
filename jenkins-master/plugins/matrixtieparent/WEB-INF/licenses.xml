@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='matrixtieparent' version='1.2'><l:dependency name='Matrix Tie Parent plugin' groupId='org.jenkins-ci.plugins' artifactId='matrixtieparent' version='1.2' url='http://wiki.hudson-ci.org/display/HUDSON/Matrix+Tie+Parent+Plugin'><l:description>Tie execution of Matrix parent build to a Label</l:description></l:dependency></l:dependencies>

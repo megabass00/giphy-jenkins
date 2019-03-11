@@ -1,4 +1,0 @@
-<?xml version='1.1' encoding='UTF-8'?>
-<hudson.plugins.seleniumhq.SeleniumhqBuilder_-DescriptorImpl plugin="seleniumhq@0.4">
-  <seleniumRunner></seleniumRunner>
-</hudson.plugins.seleniumhq.SeleniumhqBuilder_-DescriptorImpl>
