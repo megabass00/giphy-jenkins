@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kiy0taka
+Build-Jdk: 1.6.0_37
+Extension-Name: mongodb
+Implementation-Title: mongodb
+Implementation-Version: 1.3
+Group-Id: org.jenkins-ci.plugins
+Short-Name: mongodb
+Long-Name: Jenkins MongoDB Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/MongoDB+Plugin
+Plugin-Version: 1.3
+Hudson-Version: 1.425
+Jenkins-Version: 1.425
+Plugin-Developers: Kiyotaka Oku:kiy0taka:
+

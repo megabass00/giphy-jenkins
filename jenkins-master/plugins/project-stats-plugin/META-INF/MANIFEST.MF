@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: marco
+Build-Jdk: 1.6.0_33
+Extension-Name: project-stats-plugin
+Specification-Title: Provide a new dashboard-view portlet and a new co
+ lumn for project statistics.
+Implementation-Title: project-stats-plugin
+Implementation-Version: 0.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: project-stats-plugin
+Long-Name: Project statistics Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Project+Statistics+Plu
+ gin
+Plugin-Version: 0.4
+Hudson-Version: 1.459
+Jenkins-Version: 1.459
+Plugin-Dependencies: dashboard-view:2.0
+Plugin-Developers: Marco Ambu:mambu:marco.ambu+jenkins@gmail.com
+

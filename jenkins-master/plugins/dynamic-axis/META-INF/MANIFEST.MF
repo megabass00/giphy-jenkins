@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nenashev
+Build-Jdk: 1.7.0_51
+Extension-Name: dynamic-axis
+Specification-Title: Define a matrix build axis with values dynamicall
+ y populated from an environment variable at build time.
+Implementation-Title: dynamic-axis
+Implementation-Version: 1.0.3
+Group-Id: org.jenkins-ci.plugins
+Short-Name: dynamic-axis
+Long-Name: Dynamic Axis
+Url: https://wiki.jenkins-ci.org/display/JENKINS/DynamicAxis+Plugin
+Plugin-Version: 1.0.3
+Hudson-Version: 1.477
+Jenkins-Version: 1.477
+Plugin-Developers: Kevin Kane:kckane:kckane@silvermaplesolutions.ca
+

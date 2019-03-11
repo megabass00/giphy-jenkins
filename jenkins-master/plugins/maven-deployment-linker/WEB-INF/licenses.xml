@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jvnet.hudson.plugins' artifactId='maven-deployment-linker' version='1.5.1'><l:dependency name='Maven Deployment Linker' groupId='org.jvnet.hudson.plugins' artifactId='maven-deployment-linker' version='1.5.1' url='http://wiki.hudson-ci.org/display/HUDSON/Maven+Deployment+Linker'><l:description/></l:dependency></l:dependencies>

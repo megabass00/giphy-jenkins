@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nenashev
+Build-Jdk: 1.8.0_121
+Extension-Name: swarm
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: swarm
+Implementation-Version: 3.15
+Plugin-Class: hudson.plugins.swarm.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Short-Name: swarm
+Long-Name: Jenkins Self-Organizing Swarm Plug-in Modules
+Url: https://wiki.jenkins.io/display/JENKINS/Swarm+Plugin
+Plugin-Version: 3.15
+Hudson-Version: 2.60.1
+Jenkins-Version: 2.60.1
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:
+

@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ikedam
+Build-Jdk: 1.7.0_79
+Extension-Name: groovy-label-assignment
+Specification-Title: Jenkins plugin to set label dynamically with groo
+ vy scripts.
+Implementation-Title: groovy-label-assignment
+Implementation-Version: 1.2.0
+Group-Id: jp.ikedam.jenkins.plugins
+Short-Name: groovy-label-assignment
+Long-Name: Groovy Label Assignment plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Groovy+Label+Assignmen
+ t+plugin
+Compatible-Since-Version: 1.2.0
+Plugin-Version: 1.2.0
+Hudson-Version: 1.509
+Jenkins-Version: 1.509
+Plugin-Dependencies: script-security:1.16
+Plugin-Developers: IKEDA Yasuyuki:ikedam:
+

@@ -1,0 +1,5 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jvnet.hudson.plugins.collapsingconsolesections.CollapsingSectionNote_-DescriptorImpl plugin="collapsing-console-sections@1.7.0">
+  <sections/>
+  <numberingEnabled>false</numberingEnabled>
+</org.jvnet.hudson.plugins.collapsingconsolesections.CollapsingSectionNote_-DescriptorImpl>

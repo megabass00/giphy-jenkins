@@ -1,0 +1,6 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.maveninfo.config.MavenInfoGlobalConfig plugin="maven-info@0.2.0">
+  <hideSnapshots>false</hideSnapshots>
+  <snapshotsStyle></snapshotsStyle>
+  <releasesStyle></releasesStyle>
+</jenkins.plugins.maveninfo.config.MavenInfoGlobalConfig>

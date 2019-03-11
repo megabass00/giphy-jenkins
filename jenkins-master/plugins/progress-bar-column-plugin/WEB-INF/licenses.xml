@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Progress Bar Column Plugin' groupId='org.jenkins-ci.plugins' artifactId='progress-bar-column-plugin' version='1.0' url='http://wiki.jenkins-ci.org/display/JENKINS/Progress+Bar+Column+Plugin'>
+    <l:description>Provide progress bar available for views.</l:description>
+    <l:license name='The MIT license' url='https://github.com/jenkinsci/progress-bar-column-plugin/raw/master/LICENSE.txt' />
+  </l:dependency>
+</l:dependencies>

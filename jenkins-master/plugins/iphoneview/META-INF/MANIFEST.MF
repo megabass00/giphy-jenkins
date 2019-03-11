@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sogabe
+Build-Jdk: 1.6.0_17
+Extension-Name: iphoneview
+Specification-Title: This plugin allows you to view the status of your
+  jobs via iPhone or iPod touch.
+Implementation-Title: iphoneview
+Implementation-Version: 0.2
+Short-Name: iphoneview
+Long-Name: Hudson iPhoneView plugin
+Url: http://wiki.hudson-ci.org/display/HUDSON/iPhoneView+Plugin
+Plugin-Version: 0.2
+Hudson-Version: 1.352
+Plugin-Developers: Seiji Sogabe:sogabe:sogabe@dev.java.net
+

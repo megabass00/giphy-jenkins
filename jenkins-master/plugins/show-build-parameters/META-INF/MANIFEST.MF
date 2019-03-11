@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Pete
+Build-Jdk: 1.6.0_20
+Extension-Name: show-build-parameters
+Implementation-Title: show-build-parameters
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: show-build-parameters
+Long-Name: Show Build Parameters plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Show+Build+Parameters+
+ Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.399
+Plugin-Developers: Peter Hayes:petehayes:
+

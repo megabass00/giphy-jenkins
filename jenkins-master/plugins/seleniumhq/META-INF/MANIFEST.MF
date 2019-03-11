@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: pmartin
+Build-Jdk: 1.6.0_18
+Extension-Name: seleniumhq
+Implementation-Title: seleniumhq
+Implementation-Version: 0.4
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: seleniumhq
+Long-Name: Hudson Seleniumhq plugin
+Url: http://wiki.hudson-ci.org/display/HUDSON/Seleniumhq+Plugin
+Plugin-Version: 0.4
+Hudson-Version: 1.366
+Plugin-Developers: Pascal Martin:pascal_martin:
+

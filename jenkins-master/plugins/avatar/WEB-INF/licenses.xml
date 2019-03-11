@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Avatar Plugin' groupId='net.hurstfrost.jenkins' artifactId='avatar' version='1.2' url='http://wiki.jenkins-ci.org/display/JENKINS/Avatar+Plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

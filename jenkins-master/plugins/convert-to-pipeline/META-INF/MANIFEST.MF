@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: mohit.dharamshi
+Build-Jdk: 1.8.0_92
+Extension-Name: convert-to-pipeline
+Specification-Title: This plugin converts freestyle jobs to Pipeline j
+ obs.
+Implementation-Title: convert-to-pipeline
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: convert-to-pipeline
+Long-Name: Convert To Pipeline
+Url: https://wiki.jenkins.io/display/JENKINS/Convert+To+Pipeline+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 2.7.3
+Jenkins-Version: 2.7.3
+Plugin-Dependencies: workflow-aggregator:2.5,timestamper:1.8.8,credent
+ ials:1.24,cloudbees-folder:6.0.3
+Plugin-Developers: Mohit Dharamshi:mohitdharamshi:mohit.dharamshi@info
+ stretch.com
+

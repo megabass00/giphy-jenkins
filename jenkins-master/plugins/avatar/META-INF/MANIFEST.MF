@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ed
+Build-Jdk: 1.6.0_45
+Extension-Name: avatar
+Implementation-Title: avatar
+Implementation-Version: 1.2
+Group-Id: net.hurstfrost.jenkins
+Short-Name: avatar
+Long-Name: Avatar Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Avatar+Plugin
+Plugin-Version: 1.2
+Hudson-Version: 1.434
+Jenkins-Version: 1.434
+Plugin-Developers: Edward Hurst-Frost:oxcafebabe:edward@hurst-frost.net
+

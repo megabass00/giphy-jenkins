@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jesse
+Build-Jdk: 1.6.0_22
+Extension-Name: progress-bar-column-plugin
+Specification-Title: Provide progress bar available for views.
+Implementation-Title: progress-bar-column-plugin
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: progress-bar-column-plugin
+Long-Name: Progress Bar Column Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Progress+Bar+Column+Pl
+ ugin
+Plugin-Version: 1.0
+Hudson-Version: 1.421
+Jenkins-Version: 1.421
+Plugin-Developers: Jesse Farinacci:jieryn:jieryn@gmail.com
+

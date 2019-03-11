@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nenashev
+Build-Jdk: 1.7.0_75
+Extension-Name: PrioritySorter
+Specification-Title: This plugin allows for the build queue to be sort
+ ed based on configurable Sorting and Priority Assigment Strategies.
+Implementation-Title: PrioritySorter
+Implementation-Version: 3.6.0
+Plugin-Class: jenkins.advancedqueue.PrioritySorterPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: PrioritySorter
+Long-Name: Jenkins Priority Sorter Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Priority+Sorter+Plugin
+Compatible-Since-Version: 3.1
+Plugin-Version: 3.6.0
+Hudson-Version: 1.580
+Jenkins-Version: 1.580
+Plugin-Dependencies: workflow-durable-task-step:2.4;resolution:=option
+ al,matrix-project:1.4;resolution:=optional,cloudbees-folder:5.0;resol
+ ution:=optional,job-restrictions:0.4;resolution:=optional
+Plugin-Developers: Magnus Sandberg:emsa23:emsa@switchbeat.com
+

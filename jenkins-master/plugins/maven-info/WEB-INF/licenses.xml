@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.tomfolga' artifactId='maven-info' version='0.2.0'><l:dependency name='Jenkins Maven Info Plugin' groupId='org.tomfolga' artifactId='maven-info' version='0.2.0' url='https://wiki.jenkins-ci.org/display/JENKINS/Maven+Info+Plugin'><l:description/></l:dependency></l:dependencies>

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Wadeck
+Build-Jdk: 1.8.0_144
+Extension-Name: openid
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: openid
+Implementation-Version: 2.3
+Group-Id: org.jenkins-ci.plugins
+Short-Name: openid
+Long-Name: openid
+Url: http://wiki.jenkins-ci.org/display/JENKINS/OpenID+Plugin
+Plugin-Version: 2.3
+Hudson-Version: 1.609.3
+Jenkins-Version: 1.609.3
+Plugin-Dependencies: openid4java:0.9.8.0,mailer:1.8
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:kkawaguchi@cloudbees.com
+

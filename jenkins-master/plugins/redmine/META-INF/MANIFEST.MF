@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ljader
+Build-Jdk: 1.8.0_45
+Extension-Name: redmine
+Specification-Title: This plugin integrates Redmine into Jenkins
+Implementation-Title: redmine
+Implementation-Version: 0.21
+Group-Id: org.jenkins-ci.plugins
+Short-Name: redmine
+Long-Name: Jenkins Redmine plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Redmine+Plugin
+Compatible-Since-Version: 0.14
+Plugin-Version: 0.21
+Hudson-Version: 1.466
+Jenkins-Version: 1.466
+Plugin-Dependencies: subversion:2.0.1
+Plugin-Developers: Akiko Asami:gaooh:,Lukasz Jader:ljader:
+

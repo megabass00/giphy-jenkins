@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: kutzi
+Build-Jdk: 1.6.0_26
+Extension-Name: downstream-ext
+Specification-Title: This plugin provides advanced options for trigger
+ ing downstream builds.
+Implementation-Title: downstream-ext
+Implementation-Version: 1.8
+Group-Id: org.jenkins-ci.plugins
+Short-Name: downstream-ext
+Long-Name: Downstream-Ext
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Downstream-Ext+Plugin
+Plugin-Version: 1.8
+Hudson-Version: 1.480
+Jenkins-Version: 1.480
+Plugin-Developers: Christoph Kutzinski:kutzi:kutzi@gmx.de
+

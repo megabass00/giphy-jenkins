@@ -1,0 +1,41 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='redmine' version='0.21'>
+  <l:dependency name='Jenkins Redmine plugin' groupId='org.jenkins-ci.plugins' artifactId='redmine' version='0.21' url='http://wiki.jenkins-ci.org/display/JENKINS/Redmine+Plugin'>
+    <l:description>This plugin integrates Redmine into Jenkins</l:description>
+  </l:dependency>
+  <l:dependency name='MySQL java connector' groupId='mysql' artifactId='mysql-connector-java' version='5.1.21' url='http://dev.mysql.com/usingmysql/java/'>
+    <l:description>MySQL java connector</l:description>
+    <l:license name='The GNU General Public License, Version 2' url='http://www.gnu.org/licenses/gpl.txt' />
+  </l:dependency>
+  <l:dependency name='HttpCore' groupId='org.apache.httpcomponents' artifactId='httpcore' version='4.2' url='http://hc.apache.org/httpcomponents-core-ga'>
+    <l:description>HttpComponents Core (blocking I/O)</l:description>
+    <l:license name='Apache License' url='LICENSE.txt' />
+  </l:dependency>
+  <l:dependency name='Redmine Java API' groupId='com.taskadapter' artifactId='redmine-java-api' version='1.15' url='http://github.com/taskadapter/redmine-java-api'>
+    <l:description>Free open-source Java API for Redmine and Chiliproject bug/task management systems.
+        This project was originally a part of Task Adapter application (http://www.taskadapter.com)
+        and then was open-sourced.</l:description>
+    <l:license name='The Apache Software License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0.txt' />
+  </l:dependency>
+  <l:dependency name='PostgreSQL JDBC Driver' groupId='postgresql' artifactId='postgresql' version='9.1-901-1.jdbc4' url='http://jdbc.postgresql.org'>
+    <l:description>The PostgreSQL Driver JDBC4</l:description>
+    <l:license name='BSD License' url='http://jdbc.postgresql.org/license.html' />
+  </l:dependency>
+  <l:dependency name='HttpClient' groupId='org.apache.httpcomponents' artifactId='httpclient' version='4.2' url='http://hc.apache.org/httpcomponents-client'>
+    <l:description>HttpComponents Client (base module)</l:description>
+    <l:license name='Apache License' url='LICENSE.txt' />
+  </l:dependency>
+  <l:dependency name='JSON (JavaScript Object Notation)' groupId='org.json' artifactId='json' version='20090211' url='http://www.json.org/java/index.html'>
+    <l:description>JSON (JavaScript Object Notation) is a lightweight data-interchange format.
+    It is easy for humans to read and write. It is easy for machines to parse and generate.
+    It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition
+    - December 1999. JSON is a text format that is completely language independent but uses
+    conventions that are familiar to programmers of the C-family of languages, including C, C++, C#,
+    Java, JavaScript, Perl, Python, and many others.
+    These properties make JSON an ideal data-interchange language.</l:description>
+    <l:license name='provided without support or warranty' url='http://www.json.org/license.html' />
+  </l:dependency>
+  <l:dependency name='SLF4J API Module' groupId='org.slf4j' artifactId='slf4j-api' version='1.6.6' url='http://www.slf4j.org'>
+    <l:description>The slf4j API</l:description>
+    <l:license name='MIT License' url='http://www.opensource.org/licenses/mit-license.php' />
+  </l:dependency>
+</l:dependencies>

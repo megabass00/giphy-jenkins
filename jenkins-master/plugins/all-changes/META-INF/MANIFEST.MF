@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: root
+Build-Jdk: 1.7.0_95
+Extension-Name: all-changes
+Specification-Title: Shows more changes on the project page
+Implementation-Title: all-changes
+Implementation-Version: 1.5
+Group-Id: org.jenkins-ci.plugins
+Short-Name: all-changes
+Long-Name: All changes plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/All+Changes+Plugin
+Plugin-Version: 1.5
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Dependencies: parameterized-trigger:2.30;resolution:=optional,d
+ ashboard-view:2.9.9,workflow-job:1.14
+Plugin-Developers: Stefan Wolf:wolfs:,Suresh Kumar:pskumar448:pskumar4
+ 48@gmail.com
+

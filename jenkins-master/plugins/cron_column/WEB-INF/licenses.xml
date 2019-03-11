@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='cron_column' version='1.4'><l:dependency name='Cron Column Plugin' groupId='org.jenkins-ci.plugins' artifactId='cron_column' version='1.4' url='http://wiki.jenkins-ci.org/display/JENKINS/Cron+Column+Plugin'><l:description/></l:dependency></l:dependencies>

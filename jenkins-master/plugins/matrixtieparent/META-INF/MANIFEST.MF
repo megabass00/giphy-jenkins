@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: lucinka
+Build-Jdk: 1.7.0
+Extension-Name: matrixtieparent
+Specification-Title: Tie execution of Matrix parent build to a Label
+Implementation-Title: matrixtieparent
+Implementation-Version: 1.2
+Group-Id: org.jenkins-ci.plugins
+Short-Name: matrixtieparent
+Long-Name: Matrix Tie Parent plugin
+Url: http://wiki.hudson-ci.org/display/HUDSON/Matrix+Tie+Parent+Plugin
+Plugin-Version: 1.2
+Hudson-Version: 1.420
+Jenkins-Version: 1.420
+Plugin-Developers: Ken Bertelson:kbertelson:
+

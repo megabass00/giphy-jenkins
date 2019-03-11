@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: lvotypko
+Build-Jdk: 1.8.0_131
+Extension-Name: nested-view
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: nested-view
+Implementation-Version: 1.17
+Group-Id: org.jenkins-ci.plugins
+Short-Name: nested-view
+Long-Name: Nested View Plugin
+Url: https://wiki.jenkins.io/display/JENKINS/Nested+View+Plugin
+Plugin-Version: 1.17
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Developers: Alan Harder:mindless:
+

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='jenkinswalldisplay' version='0.6.34'><l:dependency name='Jenkins Wall Display Master Project' groupId='org.jenkins-ci.plugins' artifactId='jenkinswalldisplay' version='0.6.34' url='http://wiki.jenkins-ci.org/display/JENKINS/Wall+Display+Plugin'><l:description>The Jenkins Plugins Parent POM Project</l:description></l:dependency></l:dependencies>

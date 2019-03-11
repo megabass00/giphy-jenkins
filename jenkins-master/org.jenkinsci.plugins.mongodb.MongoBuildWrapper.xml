@@ -1,0 +1,20 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.mongodb.MongoBuildWrapper_-DescriptorImpl plugin="mongodb@1.3">
+  <installations>
+    <org.jenkinsci.plugins.mongodb.MongoDBInstallation>
+      <name>MongoDB 4.0.0</name>
+      <home></home>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <org.jenkinsci.plugins.mongodb.MongoDBInstaller>
+              <id>linux-x86_64-4.0.0</id>
+            </org.jenkinsci.plugins.mongodb.MongoDBInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
+      <parameters></parameters>
+      <startTimeout>0</startTimeout>
+    </org.jenkinsci.plugins.mongodb.MongoDBInstallation>
+  </installations>
+</org.jenkinsci.plugins.mongodb.MongoBuildWrapper_-DescriptorImpl>

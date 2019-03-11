@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='dynamic-axis' version='1.0.3'>
+  <l:dependency name='Dynamic Axis' groupId='org.jenkins-ci.plugins' artifactId='dynamic-axis' version='1.0.3' url='https://wiki.jenkins-ci.org/display/JENKINS/DynamicAxis+Plugin'>
+    <l:description>Define a matrix build axis with values dynamically populated from an environment variable at build time.</l:description>
+  </l:dependency>
+</l:dependencies>

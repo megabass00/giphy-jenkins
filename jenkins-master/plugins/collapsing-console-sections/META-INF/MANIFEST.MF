@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: nenashev
+Build-Jdk: 1.8.0_121
+Extension-Name: collapsing-console-sections
+Specification-Title: Annotations to collapse sections of the build con
+ sole
+Implementation-Title: collapsing-console-sections
+Implementation-Version: 1.7.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: collapsing-console-sections
+Long-Name: Jenkins Collapsing Console Sections Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Collapsing+Console+Se
+ ctions+Plugin
+Plugin-Version: 1.7.0
+Hudson-Version: 1.609.3
+Jenkins-Version: 1.609.3
+Plugin-Dependencies: jquery:1.11.2-0
+Plugin-Developers: Dean Yu:dty:,Oleg Nenashev:oleg_nenashev:o.v.nenash
+ ev@gmail.com
+

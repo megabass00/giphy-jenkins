@@ -1,0 +1,169 @@
+Lanzada por el usuario [8mha:////4ByFAB2cHI6vmCWVX+4Bwdfg9KAqOCvAm4kXE03MzU7jAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL9xJTczDwAcQdo88AAAAA=[0mLuis Izquierdo
+Ejecutando.en el espacio de trabajo /var/jenkins_home/workspace/Giphy-JS
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://megabass00:ZHC7nG1a@github.com/megabass00/giphyjs.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching upstream changes from https://megabass00@github.com/megabass00/giphyjs.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://megabass00@github.com/megabass00/giphyjs.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba37c122f55e8a1254f11574f1b293dbf3a60291 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba37c122f55e8a1254f11574f1b293dbf3a60291
+Commit message: "Readme updated"
+ > git rev-list --no-walk ba37c122f55e8a1254f11574f1b293dbf3a60291 # timeout=10
+No emails were triggered.
+Unpacking https://nodejs.org/dist/v11.10.1/node-v11.10.1-linux-x64.tar.gz to /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS_11.10.1 on Jenkins 
+$ /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS_11.10.1/bin/npm install -g npm install -g
+/var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS_11.10.1/bin/npm -> /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS_11.10.1/lib/node_modules/npm/bin/npm-cli.js
+/var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS_11.10.1/bin/npx -> /var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/NodeJS_11.10.1/lib/node_modules/npm/bin/npx-cli.js
++ install@0.12.2
++ npm@6.8.0
+added 3 packages from 3 contributors, removed 2 packages and updated 7 packages in 33.54s
+[Giphy-JS] $ /bin/sh -xe /tmp/jenkins4438547039939702384.sh
++ git config --global user.email luis.izquierdo@protonmail.com
++ git config --global user.name megabass00
++ npm install --loglevel=error
+
+> sharp@0.21.3 install /var/jenkins_home/workspace/Giphy-JS/node_modules/sharp
+> (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+
+info sharp Using cached /var/jenkins_home/.npm/_libvips/libvips-8.7.0-linux-x64.tar.gz
+
+> nodemon@1.18.9 postinstall /var/jenkins_home/workspace/Giphy-JS/node_modules/nodemon
+> node bin/postinstall || exit 0
+
+added 549 packages from 856 contributors and audited 6154 packages in 47.7s
+found 1 high severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
++ npm run test
+
+> giphy-js@1.0.0 test /var/jenkins_home/workspace/Giphy-JS
+> NODE_ENV=test mocha --timeout 5s src/test/*.test.js --exit
+
+Runnin on test mode
+Using error handler
+
+
+Server listen on port 5000
+  API routes
+    Registering a test API user
+{ MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/var/jenkins_home/workspace/Giphy-JS/node_modules/mongodb-core/lib/topologies/server.js:564:11)
+    at Pool.emit (events.js:197:13)
+    at Connection.<anonymous> (/var/jenkins_home/workspace/Giphy-JS/node_modules/mongodb-core/lib/connection/pool.js:317:12)
+    at Object.onceWrapper (events.js:285:13)
+    at Connection.emit (events.js:197:13)
+    at Socket.<anonymous> (/var/jenkins_home/workspace/Giphy-JS/node_modules/mongodb-core/lib/connection/connection.js:246:50)
+    at Object.onceWrapper (events.js:285:13)
+    at Socket.emit (events.js:197:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at processTicksAndRejections (internal/process/next_tick.js:76:17)
+  name: 'MongoNetworkError',
+  errorLabels: [ 'TransientTransactionError' ],
+  [Symbol(mongoErrorContextSymbol)]: {} }
+    1) "before all" hook
+
+  Backend routes
+    User login and get data
+    Registering a test backend user
+      2) "before all" hook
+Closing database connection
+
+  Frontend routes
+    Home page
+      ✓ should return 200 (94ms)
+    About page
+      ✓ should return 200
+
+
+  2 passing (4m)
+  2 failing
+
+  1) API routes
+       "before all" hook:
+     Uncaught TypeError: Cannot read property 'status' of undefined
+      at chai.request.post.send.end (src/test/api.test.js:26:28)
+      at Test.Request.callback (node_modules/chai-http/node_modules/superagent/lib/node/index.js:728:3)
+      at ClientRequest.req.once.err (node_modules/chai-http/node_modules/superagent/lib/node/index.js:647:10)
+      at Socket.socketOnEnd (_http_client.js:431:9)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+  2) Backend routes
+       User login and get data
+         "before all" hook:
+     Uncaught TypeError: Cannot read property 'status' of undefined
+      at Test.authUser.post.send.end (src/test/backend.test.js:32:32)
+      at Test.assert (node_modules/supertest/lib/test.js:181:6)
+      at Server.localAssert (node_modules/supertest/lib/test.js:131:12)
+      at emitCloseNT (net.js:1600:8)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! giphy-js@1.0.0 test: `NODE_ENV=test mocha --timeout 5s src/test/*.test.js --exit`
+npm ERR! Exit status 2
+npm ERR! 
+npm ERR! Failed at the giphy-js@1.0.0 test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /var/jenkins_home/.npm/_logs/2019-03-06T15_05_24_279Z-debug.log
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+Sending e-mails to: luisma.jig@gmail.com
+ERROR: Could not connect to SMTP host: localhost, port: 25
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+	at javax.mail.Service.connect(Service.java:295)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:173)
+	at hudson.tasks.Mailer.perform(Mailer.java:136)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1835)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:286)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+	... 18 more
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in  21 second
+Email was triggered for: Failure - Any
+Email was triggered for: Always
+Sending email for trigger: Failure - Any
+An attempt to send an e-mail to empty list of recipients, ignored.
+Sending email for trigger: Always
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE

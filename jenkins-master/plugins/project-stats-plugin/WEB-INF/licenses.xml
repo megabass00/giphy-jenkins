@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='project-stats-plugin' version='0.4'>
+  <l:dependency name='Project statistics Plugin' groupId='org.jenkins-ci.plugins' artifactId='project-stats-plugin' version='0.4' url='http://wiki.jenkins-ci.org/display/JENKINS/Project+Statistics+Plugin'>
+    <l:description>Provide a new dashboard-view portlet and a new column for project statistics.</l:description>
+  </l:dependency>
+</l:dependencies>

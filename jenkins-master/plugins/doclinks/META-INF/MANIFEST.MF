@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ikedam
+Build-Jdk: 1.7.0_79
+Extension-Name: doclinks
+Specification-Title: This plugin allows you to publish documents which
+  are created in the build steps.
+Implementation-Title: doclinks
+Implementation-Version: 0.6.1
+Group-Id: org.jenkinsci.plugins
+Short-Name: doclinks
+Long-Name: Jenkins DocLinks plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/DocLinks+Plugin
+Plugin-Version: 0.6.1
+Hudson-Version: 1.466
+Jenkins-Version: 1.466
+Plugin-Dependencies: maven-plugin:1.466;resolution:=optional,javadoc:1
+ .0;resolution:=optional
+Plugin-Developers: Seiji Sogabe:sogabe:s.sogabe@gmail.com,IKEDA Yasuyu
+ ki:ikedam:
+

@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: _jenkins
+Build-Jdk: 1.6.0_43
+Extension-Name: maven-deployment-linker
+Implementation-Title: maven-deployment-linker
+Implementation-Version: 1.5.1
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: maven-deployment-linker
+Long-Name: Maven Deployment Linker
+Url: http://wiki.hudson-ci.org/display/HUDSON/Maven+Deployment+Linker
+Plugin-Version: 1.5.1
+Hudson-Version: 1.420
+Jenkins-Version: 1.420
+Plugin-Dependencies: token-macro:1.5.1,async-http-client:1.7.4
+Plugin-Developers: Larry Shatzer, Jr.:lshatzer:larrys@gmail.com,Vincen
+ t Latombe:vlatombe:vincent.latombe@gmail.com,Arnaud H�ritier:aherit
+ ier:aheritier@apache.org,Dominik Bartholdi:imod:
+

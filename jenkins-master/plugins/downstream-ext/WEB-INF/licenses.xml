@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='downstream-ext' version='1.8'>
+  <l:dependency name='Downstream-Ext' groupId='org.jenkins-ci.plugins' artifactId='downstream-ext' version='1.8' url='https://wiki.jenkins-ci.org/display/JENKINS/Downstream-Ext+Plugin'>
+    <l:description>This plugin provides advanced options for triggering downstream builds.</l:description>
+    <l:license name='MIT license' />
+  </l:dependency>
+</l:dependencies>

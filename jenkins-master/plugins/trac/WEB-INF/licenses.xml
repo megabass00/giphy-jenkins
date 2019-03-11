@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Edgewall Trac Plugin' groupId='org.jenkins-ci.plugins' artifactId='trac' version='1.13' url='http://wiki.jenkins-ci.org/display/jenkins/Trac+Plugin'>
+    <l:description />
+    <l:license name='The MIT license' url='https://github.com/jenkinsci/trac-plugin/raw/master/LICENSE.txt' />
+  </l:dependency>
+</l:dependencies>

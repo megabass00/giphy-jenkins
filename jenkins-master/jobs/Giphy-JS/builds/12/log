@@ -1,0 +1,177 @@
+Lanzada por el usuario [8mha:////4ByFAB2cHI6vmCWVX+4Bwdfg9KAqOCvAm4kXE03MzU7jAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZu/dLi1CL9xJTczDwAcQdo88AAAAA=[0mLuis Izquierdo
+Ejecutando.en el espacio de trabajo /var/jenkins_home/workspace/Giphy-JS
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://megabass00:ZHC7nG1a@github.com/megabass00/giphyjs.git # timeout=10
+Cleaning workspace
+ > git rev-parse --verify HEAD # timeout=10
+Resetting working tree
+ > git reset --hard # timeout=10
+ > git clean -fdx # timeout=10
+Fetching upstream changes from https://megabass00@github.com/megabass00/giphyjs.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://megabass00@github.com/megabass00/giphyjs.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba37c122f55e8a1254f11574f1b293dbf3a60291 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba37c122f55e8a1254f11574f1b293dbf3a60291
+Commit message: "Readme updated"
+ > git rev-list --no-walk ba37c122f55e8a1254f11574f1b293dbf3a60291 # timeout=10
+No emails were triggered.
+Unpacking https://downloads.mongodb.org/linux/mongodb-linux-x86_64-4.0.0.tgz to /var/jenkins_home/tools/org.jenkinsci.plugins.mongodb.MongoDBInstallation/MongoDB_4.0.0 on Jenkins 
+[MongoDB] Executing mongodb start command: [/var/jenkins_home/tools/org.jenkinsci.plugins.mongodb.MongoDBInstallation/MongoDB_4.0.0/bin/mongod, --logpath, /var/jenkins_home/workspace/Giphy-JS/mongodb.log, --dbpath, /var/jenkins_home/workspace/Giphy-JS/${WORKSPACE}/data/db, --port, 27017]
+$ /var/jenkins_home/tools/org.jenkinsci.plugins.mongodb.MongoDBInstallation/MongoDB_4.0.0/bin/mongod --logpath /var/jenkins_home/workspace/Giphy-JS/mongodb.log --dbpath /var/jenkins_home/workspace/Giphy-JS/${WORKSPACE}/data/db --port 27017
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] Starting...
+[MongoDB] MongoDB running at:http://localhost:27017
+[Giphy-JS] $ /bin/sh -xe /tmp/jenkins4167741250681879172.sh
++ git config --global user.email luis.izquierdo@protonmail.com
++ git config --global user.name megabass00
++ echo NodeJS Version:
+NodeJS Version:
++ node --version
+v11.10.1
++ echo NPM Version:
+NPM Version:
++ npm --version
+6.8.0
++ npm install --loglevel=error
+
+> sharp@0.21.3 install /var/jenkins_home/workspace/Giphy-JS/node_modules/sharp
+> (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+
+info sharp Using cached /var/jenkins_home/.npm/_libvips/libvips-8.7.0-linux-x64.tar.gz
+
+> nodemon@1.18.9 postinstall /var/jenkins_home/workspace/Giphy-JS/node_modules/nodemon
+> node bin/postinstall || exit 0
+
+added 549 packages from 856 contributors and audited 6154 packages in 48.075s
+found 1 high severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
++ npm run test
+
+> giphy-js@1.0.0 test /var/jenkins_home/workspace/Giphy-JS
+> NODE_ENV=test mocha --timeout 5s src/test/*.test.js --exit
+
+Runnin on test mode
+Using error handler
+
+
+Server listen on port 5000
+  API routes
+    Registering a test API user
+DB is connected to: mongodb://localhost/giphy-app-TEST
+new hash:$2a$10$AiWIHfSMnwBrCyUtfkbZA.mWcalZw2CUThg881STcMtVkf9wXU14O
+Token saved: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuZXdVc2VyIjp7InJvbGUiOiJVU0VSIiwiYXZhdGFyIjoiZGVmYXVsdC5wbmciLCJfaWQiOiI1YzdmZTcyMjI4N2VhYzFhYzJiYWI3ODQiLCJtYXN0ZXJuYW1lIjoiRmFrZVVzZXIiLCJlbWFpbCI6IklsYS5SdXNzZWxAaG90bWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCRBaVdJSGZTTW53QnJDeVV0ZmtiWkEubVdjYWxadzJDVVRoZzg4MVNUY010VmtmOXdYVTE0TyIsImNyZWF0ZWQiOiIyMDE5LTAzLTA2VDE1OjI4OjM0LjYzMFoiLCJfX3YiOjB9LCJpYXQiOjE1NTE4ODYxMTR9.rhhGY9yQSM4Mw5q-eINdGILvMQwszsz4C0TojGzvQ78
+    API user get auth token and data
+      ✓ missing email in signin should return 403
+      ✓ missing password in signin should return 403
+      ✓ wrong email in signin should return 403
+      ✓ wrong password in signin should return 403 (134ms)
+Token saved: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InJvbGUiOiJVU0VSIiwiYXZhdGFyIjoiZGVmYXVsdC5wbmciLCJfaWQiOiI1YzdmZTcyMjI4N2VhYzFhYzJiYWI3ODQiLCJtYXN0ZXJuYW1lIjoiRmFrZVVzZXIiLCJlbWFpbCI6IklsYS5SdXNzZWxAaG90bWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCRBaVdJSGZTTW53QnJDeVV0ZmtiWkEubVdjYWxadzJDVVRoZzg4MVNUY010VmtmOXdYVTE0TyIsImNyZWF0ZWQiOiIyMDE5LTAzLTA2VDE1OjI4OjM0LjYzMFoiLCJfX3YiOjB9LCJpYXQiOjE1NTE4ODYxMTV9.PlbN9k3d961MJhBqTSHCu3YsSAfMWRCRjFm63LT4E0k
+      ✓ signin with correct data should return 200 and auth token (133ms)
+      ✓ get giphies without token should return 403
+      ✓ get giphies with wrong token should return 403
+      ✓ get giphies with correct token should return 200
+
+  Backend routes
+    User login and get data
+    Registering a test backend user
+new hash:$2a$10$I7nQcOr8AoPtUmmPp/sfTOInsXF4IV4iDyPPqtZNmHpDqA36Kd5r6
+      ✓ should return 200 if user is logged in (103ms)
+      ✓ user logout should return 302 and redirect to home
+      ✓ if user is not logged in giphies list should return 302 and redirect to signup
+      ✓ if user is not logged in edit profile should return 302 and redirect to signup
+      ✓ if user is not logged in change password should return 302 and redirect to signup
+      ✓ user correct login should return 302 and redirect to giphies list
+      ✓ giphies list should return 200
+      1) giphies list should return 200
+
+  15 passing (1s)
+  1 failing
+
+  1) Backend routes
+       User login and get data
+         giphies list should return 200:
+     Uncaught TypeError: Cannot read property 'status' of undefined
+      at Test.authUser.get.end (src/test/backend.test.js:106:32)
+      at Test.assert (node_modules/supertest/lib/test.js:181:6)
+      at localAssert (node_modules/supertest/lib/test.js:131:12)
+      at /var/jenkins_home/workspace/Giphy-JS/node_modules/supertest/lib/test.js:128:5
+      at Test.Request.callback (node_modules/supertest/node_modules/superagent/lib/node/index.js:728:3)
+      at ClientRequest.req.once.err (node_modules/supertest/node_modules/superagent/lib/node/index.js:647:10)
+      at Socket.socketErrorListener (_http_client.js:397:9)
+      at emitErrorNT (internal/streams/destroy.js:82:8)
+      at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+      at processTicksAndRejections (internal/process/next_tick.js:76:17)
+
+
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! giphy-js@1.0.0 test: `NODE_ENV=test mocha --timeout 5s src/test/*.test.js --exit`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the giphy-js@1.0.0 test script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /var/jenkins_home/.npm/_logs/2019-03-06T15_28_35_705Z-debug.log
+Build step 'Ejecutar linea de comandos (shell)' marked build as failure
+[MongoDB] Killing mongodb process...
+Sending e-mails to: luisma.jig@gmail.com
+ERROR: Could not connect to SMTP host: localhost, port: 25
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+	at javax.mail.Service.connect(Service.java:295)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:173)
+	at hudson.tasks.Mailer.perform(Mailer.java:136)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1835)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:286)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+	... 18 more
+Started calculate disk usage of build
+Finished Calculation of disk usage of build in 0 seconds
+Started calculate disk usage of workspace
+Finished Calculation of disk usage of workspace in  19 second
+Email was triggered for: Failure - Any
+Email was triggered for: Always
+Sending email for trigger: Failure - Any
+An attempt to send an e-mail to empty list of recipients, ignored.
+Sending email for trigger: Always
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE

@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins Doxygen Plug-in' groupId='org.jenkins-ci.plugins' artifactId='doxygen' version='0.18' url='http://wiki.jenkins-ci.org/display/JENKINS/Doxygen+Plugin'>
+    <l:description />
+    <l:license name='MIT license' />
+  </l:dependency>
+</l:dependencies>

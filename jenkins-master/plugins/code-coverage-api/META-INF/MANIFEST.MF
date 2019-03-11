@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: szheng
+Build-Jdk: 1.8.0_192
+Extension-Name: code-coverage-api
+Specification-Title: Code Coverage API Plugin
+Implementation-Title: code-coverage-api
+Implementation-Version: 1.0.7
+Group-Id: io.jenkins.plugins
+Short-Name: code-coverage-api
+Long-Name: Code Coverage API Plugin
+Plugin-Version: 1.0.7
+Hudson-Version: 2.60.3
+Jenkins-Version: 2.60.3
+Plugin-Dependencies: jackson2-api:2.8.11.3,structs:1.7
+Plugin-Developers: Shenyu Zheng:cizezsy:zsy19980307@gmail.com
+
